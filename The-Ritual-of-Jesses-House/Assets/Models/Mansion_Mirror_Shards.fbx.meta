@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 1eb8ea62ee00def44a91e59461e798ae
+timeCreated: 1454179932
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mirror_Shard_1
+    100004: Mirror_Shard_2
+    100006: Mirror_Shard_3
+    100008: Mirror_Shard_4
+    100010: Mirror_Shard_5
+    100012: Mirror_Shard_6
+    100014: Mirror_Shard_7
+    100016: polySurface11
+    100018: polySurface12
+    100020: polySurface14
+    100022: polySurface16
+    100024: polySurface18
+    100026: polySurface19
+    100028: polySurface20
+    100030: polySurface21
+    100032: polySurface23
+    400000: //RootNode
+    400002: Mirror_Shard_1
+    400004: Mirror_Shard_2
+    400006: Mirror_Shard_3
+    400008: Mirror_Shard_4
+    400010: Mirror_Shard_5
+    400012: Mirror_Shard_6
+    400014: Mirror_Shard_7
+    400016: polySurface11
+    400018: polySurface12
+    400020: polySurface14
+    400022: polySurface16
+    400024: polySurface18
+    400026: polySurface19
+    400028: polySurface20
+    400030: polySurface21
+    400032: polySurface23
+    2300000: Mirror_Shard_1
+    2300002: Mirror_Shard_2
+    2300004: Mirror_Shard_3
+    2300006: Mirror_Shard_4
+    2300008: Mirror_Shard_5
+    2300010: Mirror_Shard_6
+    2300012: Mirror_Shard_7
+    3300000: Mirror_Shard_1
+    3300002: Mirror_Shard_2
+    3300004: Mirror_Shard_3
+    3300006: Mirror_Shard_4
+    3300008: Mirror_Shard_5
+    3300010: Mirror_Shard_6
+    3300012: Mirror_Shard_7
+    4300000: Mirror_Shard_1
+    4300002: Mirror_Shard_2
+    4300004: Mirror_Shard_3
+    4300006: Mirror_Shard_4
+    4300008: Mirror_Shard_5
+    4300010: Mirror_Shard_6
+    4300012: Mirror_Shard_7
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
