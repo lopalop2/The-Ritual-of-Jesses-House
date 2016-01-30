@@ -6,8 +6,8 @@ using System.Collections.Generic;
 public class Inventory : MonoBehaviour
 {
     public GameObject[] items;
-    public Image uiItem0;
-    public Image uiItem1;
+
+    private int currItem = 0;
 
     public int Size() { return items.Length; }
 
@@ -30,10 +30,15 @@ public class Inventory : MonoBehaviour
             }
     }
 
-    public GameObject RemoveItem(int _index)
+    public void SelectNextItem()
     {
-        GameObject ret = items[_index];
-        items[_index] = null;
+        currItem = currItem == 0 ? 1 : 0;
+    }
+
+    public GameObject RemoveCurrItem()
+    {
+        GameObject ret = items[currItem];
+        items[currItem] = null;
         return ret;
     }
 }
