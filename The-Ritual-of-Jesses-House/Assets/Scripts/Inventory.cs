@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-[System.Serializable]
-public class Inventory
+public class Inventory : MonoBehaviour
 {
     public GameObject[] items;
+    public Image uiItem0;
+    public Image uiItem1;
 
     public int Size() { return items.Length; }
 
@@ -13,16 +15,25 @@ public class Inventory
     {
         foreach (GameObject item in items)
             if (item == null)
-                return true;
+                return false;
 
-        return false;
+        return true;
     }
 
     public void AddItem(GameObject _item)
     {
         for (int i = 0; i < Size(); ++i)
             if (items[i] == null)
+            {
                 items[i] = _item;
+                
+                
+                if (i == 0)
+                    uiItem0.sprite = _item.GetComponentInChildren<SpriteRenderer>().sprite;
+                else if (i == 1)
+                    uiItem1.sprite = _item.GetComponentInChildren<SpriteRenderer>().sprite;
+                 
+            }
     }
 
     public GameObject RemoveItem(int _index)

@@ -3,8 +3,6 @@ using System.Collections;
 
 public class charaController : MonoBehaviour 
 {
-
-    public Inventory inventory;
     public float rotationDegreesPerSecond;
 
     int hashID_walking;
