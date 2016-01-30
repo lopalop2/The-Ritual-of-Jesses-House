@@ -16,5 +16,7 @@ public class cameraScript : MonoBehaviour {
 		if (Input.GetAxis ("Vertical") != 0) {
 			GetComponent<Rigidbody> ().velocity = new Vector3 (GetComponent<Rigidbody> ().velocity.x, GetComponent<Rigidbody> ().velocity.y, Input.GetAxis ("Vertical") * 5);
 		}
+		if (Input.GetAxis ("Vertical") == 0 && Input.GetAxis ("Horizontal") == 0)
+			GetComponent<Rigidbody> ().velocity = Vector3.zero;
 	}
 }
