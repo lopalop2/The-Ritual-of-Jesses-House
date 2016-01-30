@@ -155,10 +155,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 1190815367}
   - 33: {fileID: 1190815366}
-  - 65: {fileID: 1190815365}
   - 23: {fileID: 1190815364}
   - 54: {fileID: 1190815363}
   - 114: {fileID: 1190815362}
+  - 135: {fileID: 1190815365}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -190,7 +190,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &1190815364
 MeshRenderer:
@@ -202,7 +202,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10756, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 29156be3cad807740a826b572f8ffc17, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -218,8 +218,8 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!65 &1190815365
-BoxCollider:
+--- !u!135 &1190815365
+SphereCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -228,7 +228,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.6789856
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1190815366
 MeshFilter:
@@ -261,8 +261,8 @@ GameObject:
   - 92: {fileID: 1319275436}
   - 124: {fileID: 1319275435}
   - 81: {fileID: 1319275434}
-  - 114: {fileID: 1319275439}
   - 54: {fileID: 1319275440}
+  - 114: {fileID: 1319275439}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -345,7 +345,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1319275433}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cae7de9ddf394c6469f128e8f2ae649b, type: 3}
+  m_Script: {fileID: 11500000, guid: b37b26d01f2a615408659976ce9fae31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &1319275440
@@ -391,7 +391,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9c45236f7d2dbb746908097ba240ed49, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -434,7 +434,7 @@ Transform:
   m_GameObject: {fileID: 2060356571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.74773884, y: -1.46, z: -0.6410699}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6.758647, y: 6.7586465, z: 6.7586465}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
