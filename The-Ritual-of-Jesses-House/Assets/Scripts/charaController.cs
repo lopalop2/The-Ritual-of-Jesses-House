@@ -3,6 +3,8 @@ using System.Collections;
 
 public class charaController : MonoBehaviour {
 
+    public Inventory inventory;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -19,4 +21,9 @@ public class charaController : MonoBehaviour {
 		if (Input.GetAxis ("Vertical") == 0 && Input.GetAxis ("Horizontal") == 0)
 			GetComponent<Rigidbody> ().velocity = Vector3.zero;
 	}
+
+    void RandomFunction()
+    {
+        
+    }
 }

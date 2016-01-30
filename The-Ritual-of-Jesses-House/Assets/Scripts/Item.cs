@@ -4,6 +4,6 @@ using System.Collections;
 [System.Serializable]
 public class Item
 {
-    GameObject gameObject;
-    GameObject inventory;
+    public GameObject gameObject;
+    public GameObject inventoryIcon;
 }
