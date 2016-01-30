@@ -1023,7 +1023,7 @@ GameObject:
   - 114: {fileID: 11435808}
   - 54: {fileID: 5408548}
   - 143: {fileID: 14372704}
-  - 82: {fileID: 8235160}
+  - 82: {fileID: 8218386}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2023,7 +2023,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!82 &8235160
+--- !u!82 &8218386
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -2034,7 +2034,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 740b5fb590788994db0b10c4595b85ad, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.327
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2130,7 +2130,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
   rotationDegreesPerSecond: 360
-  walk: {fileID: 8235160}
+  walk: {fileID: 8218386}
 --- !u!137 &13779552
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
