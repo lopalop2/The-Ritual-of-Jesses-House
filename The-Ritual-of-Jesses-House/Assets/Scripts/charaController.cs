@@ -13,6 +13,8 @@ public class charaController : MonoBehaviour
     Rigidbody rb;
 	CharacterController cc;
 	Vector3 moveDirection = Vector3.zero;
+	public AudioSource walk;
+	float speed = 2;
 
 	// Use this for initialization
 	void Awake()
@@ -25,10 +27,12 @@ public class charaController : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-
+		if(anim.GetBool (hashID_walking) ? walk.mute = false : walk.mute = true);
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
-
+		if (Input.GetAxisRaw("Fire1") != 0)
+			if(Input.GetAxisRaw("Fire2") != 0)
+				speed = 10;
         Movement(hor, ver);
 	}
 
@@ -47,7 +51,7 @@ public class charaController : MonoBehaviour
 			
 					moveDirection = new Vector3 (_hor , 0, _ver);
 					//moveDirection = transform.TransformDirection (moveDirection);
-					moveDirection *= 2;
+					moveDirection *= speed;
 			
         	   // rb.velocity = new Vector3(_hor * 5, rb.velocity.y, _ver * 5);
 			
