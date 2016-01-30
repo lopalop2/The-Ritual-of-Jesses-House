@@ -13,6 +13,7 @@ public class charaController : MonoBehaviour
 	Vector3 moveDirection = Vector3.zero;
 	public AudioSource walk;
 	float speed = 2;
+    Inventory inventory;
 
 	// Use this for initialization
 	void Awake()
@@ -21,6 +22,7 @@ public class charaController : MonoBehaviour
         anim = GetComponent<Animator>();
 		rb = GetComponent<Rigidbody>();
 		cc = GetComponent<CharacterController>();
+        inventory = GetComponent<Inventory>();
     }
 	
 	// Update is called once per frame
@@ -32,6 +34,12 @@ public class charaController : MonoBehaviour
 			if(Input.GetAxisRaw("Fire2") != 0)
 				speed = 10;
         Movement(hor, ver);
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            GameObject droppedItem = inventory.RemoveItem(0);
+            droppedItem.SetActive(true);
+        }
 	}
 
     void Movement(float _hor, float _ver)

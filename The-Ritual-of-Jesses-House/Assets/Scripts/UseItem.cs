@@ -24,7 +24,7 @@ public class UseItem : MonoBehaviour
             {
                 Debug.Log("Tried to pick up.");
                 pickupable.Pickup(player);
-                //inventory.AddItem(coll.gameObject);
+                inventory.AddItem(coll.gameObject);
             }
             else
             {

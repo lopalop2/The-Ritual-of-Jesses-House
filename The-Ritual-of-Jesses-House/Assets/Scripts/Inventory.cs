@@ -26,13 +26,7 @@ public class Inventory : MonoBehaviour
             if (items[i] == null)
             {
                 items[i] = _item;
-                
-                
-                if (i == 0)
-                    uiItem0.sprite = _item.GetComponentInChildren<SpriteRenderer>().sprite;
-                else if (i == 1)
-                    uiItem1.sprite = _item.GetComponentInChildren<SpriteRenderer>().sprite;
-                 
+                return;
             }
     }
 
