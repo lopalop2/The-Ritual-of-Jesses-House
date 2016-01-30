@@ -31,8 +31,13 @@ public class charaController : MonoBehaviour
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
 		if (Input.GetAxisRaw("Fire1") != 0)
-			if(Input.GetAxisRaw("Fire2") != 0)
+		{
+			if (Input.GetAxisRaw ("Fire2") != 0)
 				speed = 10;
+			else if (Input.GetAxisRaw ("Fire3") != 0) {
+				speed = 2;
+			}
+			}
         Movement(hor, ver);
 	}
 
