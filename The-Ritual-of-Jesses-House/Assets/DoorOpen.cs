@@ -69,7 +69,7 @@ public class DoorOpen : MonoBehaviour, IUsable
                                 if (Destructable)
                                 {
                                     //DestroyObject(gameObject);
-                                    if (plyinv.items[i].name != "sledge")
+									if (plyinv.items[i].name != "sledge" || plyinv.items[i].name != "staff")
                                     {
                                         plyinv.items[i] = null;
                                     }
