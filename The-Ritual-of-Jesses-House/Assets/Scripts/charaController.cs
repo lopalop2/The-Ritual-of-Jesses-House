@@ -14,6 +14,7 @@ public class charaController : MonoBehaviour
 	public AudioSource walk;
 	float speed = 2;
     Inventory inventory;
+    private float dropKeyHoldTime;
 
 	// Use this for initialization
 	void Awake()
@@ -40,10 +41,25 @@ public class charaController : MonoBehaviour
 			}
         Movement(hor, ver);
 
-        if(Input.GetKeyDown(KeyCode.Q))
+        
+        if(Input.GetKeyUp(KeyCode.Q))
         {
-            GameObject droppedItem = inventory.RemoveItem(0);
-            droppedItem.SetActive(true);
+            if(dropKeyHoldTime <= 1.0f)
+            {
+                inventory.SelectNextItem();
+            }
+            dropKeyHoldTime = 0;
+        }
+
+        if(Input.GetKey(KeyCode.Q))
+        {
+            dropKeyHoldTime += Time.deltaTime;
+            if (dropKeyHoldTime > 1.0f)
+            {
+                GameObject droppedItem = inventory.RemoveCurrItem();
+                if (droppedItem != null)
+                    droppedItem.GetComponent<Pickupable>().Drop(gameObject);
+            }
         }
 	}
 

@@ -13,7 +13,7 @@ public class StormController : MonoBehaviour
     [SerializeField]
     AudioClip thunder = null;
 
-    float volume = 0.01f;
+    float volume = 0.1f;
 
     void Awake()
     {
