@@ -1,32 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ActionTrigger : MonoBehaviour
+public class ActionTrigger : MonoBehaviour, IUsable
 {
 
     GameObject ActionItem = null;
 
+    [SerializeField]
     TriggeredMove mover;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
     void Awake()
     {
         mover = ActionItem.GetComponent<TriggeredMove>();
-
     }
-    // Update is called once per frame
-    void Update()
+    public void Use(GameObject _player)
     {
-
-    }
-
-    void OnColissionStay(Collision _col)
-    {
-        if (Input.GetKeyDown(KeyCode.E) && _col.gameObject.tag == "Player")
-            mover.SetMove();
+        mover.SetMove();
     }
 }

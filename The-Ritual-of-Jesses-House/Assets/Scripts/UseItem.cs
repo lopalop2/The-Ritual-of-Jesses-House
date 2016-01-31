@@ -17,7 +17,7 @@ public class UseItem : MonoBehaviour
 
     IEnumerator OnTriggerStay(Collider coll)
     {
-		if (Input.GetAxisRaw("Interact") != 0)
+		if (Input.GetButtonDown("Interact"))
         {
             Pickupable pickupable = coll.gameObject.GetComponent<Pickupable>();
 
@@ -45,7 +45,7 @@ public class UseItem : MonoBehaviour
 
     void Update()
     {
-		if (Input.GetAxisRaw("Interact") == 0)
+		if (Input.GetButtonUp("Interact"))
             isPlayerUsing = false;
     }
 }

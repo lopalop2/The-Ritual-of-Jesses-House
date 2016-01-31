@@ -7,6 +7,7 @@ public class TriggeredMove : MonoBehaviour
     [SerializeField]
     float distance = 0;
 
+    [SerializeField]
     float moved = 0;
 
     [SerializeField]
@@ -21,6 +22,7 @@ public class TriggeredMove : MonoBehaviour
     [SerializeField]
     bool isZ = false;
 
+    [SerializeField]
     bool moving = false;
 
     // Use this for initialization
@@ -32,28 +34,31 @@ public class TriggeredMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-    }
-
-    void FixedUpdate()
-    {
         if (moving)
         {
             Move();
         }
     }
 
+    void FixedUpdate()
+    {
+        //if (moving)
+        //{
+        //    Move();
+        //}
+    }
+
     void Move()
     {
-        if (isX && moved > distance)
+        if (isX && moved < distance)
         {
             gameObject.transform.position = new Vector3(transform.position.x + speed, transform.position.y, transform.position.z);
         }
-        if (isY && moved > distance)
+        if (isY && moved < distance)
         {
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y + speed, transform.position.z);
         }
-        if (isZ && moved > distance)
+        if (isZ && moved < distance)
         {
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + speed);
         }
