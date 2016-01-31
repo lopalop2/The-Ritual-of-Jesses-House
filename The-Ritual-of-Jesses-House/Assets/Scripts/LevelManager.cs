@@ -93,10 +93,5 @@ public class LevelManager : MonoBehaviour
 	}
 
 
-	void Update () 
-	{
-		volumeEffect.volume = volumeSlider.value;
-		soundEffects.volume = soundSlider.value;
 
-	}
 }
