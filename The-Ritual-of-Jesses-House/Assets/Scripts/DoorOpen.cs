@@ -3,9 +3,9 @@ using System.Collections;
 
 public class DoorOpen : MonoBehaviour, IUsable
 {
-
+    static int countZ = 0;
     Inventory plyinv;
-    bool test = false;
+    public bool test = false;
     [SerializeField]
     bool locked = false;
     [SerializeField]
@@ -51,7 +51,7 @@ public class DoorOpen : MonoBehaviour, IUsable
     }
     public void Use(GameObject _player)
     {
-        if (destroyed)
+        if ((++countZ & 1) == 0 || destroyed)
             return;
         if (locked)
         {
@@ -98,13 +98,16 @@ public class DoorOpen : MonoBehaviour, IUsable
 
             if (!test)
             {
+                Debug.Log("log1:" + test);
                 gameObject.transform.localRotation = new Quaternion(0, 45, 0, 0);
 				if(!audio.isPlaying)
 					audio.PlayOneShot (unlockclip);
                 test = true;
+                Debug.Log("log2:" + test);
             }
             else
             {
+                Debug.Log("This is happening and it should not be.");
                 if (!doubledoor)
                     gameObject.transform.localRotation = Quaternion.Euler(0, 90, 0);
                 else
