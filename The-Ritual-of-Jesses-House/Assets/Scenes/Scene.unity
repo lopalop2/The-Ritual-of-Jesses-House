@@ -75,7 +75,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentRadius: 0.5
-    agentHeight: 2
+    agentHeight: 13.31
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
@@ -84,7 +84,7 @@ NavMeshSettings:
     minRegionArea: 2
     cellSize: 0.16666667
     manualCellSize: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: b2bb168e6298cb741a66a60ab066d077, type: 2}
 --- !u!1 &16413828
 GameObject:
   m_ObjectHideFlags: 0
@@ -7776,6 +7776,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 55.41
       objectReference: {fileID: 0}
+    - target: {fileID: 198552, guid: 38c4b999b4a435044a033edabb6947dc, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 38c4b999b4a435044a033edabb6947dc, type: 2}
   m_IsPrefabParent: 0
@@ -10078,6 +10082,10 @@ Prefab:
       propertyPath: item2
       value: 
       objectReference: {fileID: 1471891261}
+    - target: {fileID: 153248, guid: 330b137185045ea40bf72ab0a7e937d9, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 330b137185045ea40bf72ab0a7e937d9, type: 2}
   m_IsPrefabParent: 0
@@ -11096,6 +11104,10 @@ Prefab:
     - target: {fileID: 104060, guid: bc150f9ee9042894696ca998d9bf836a, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 168622, guid: bc150f9ee9042894696ca998d9bf836a, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bc150f9ee9042894696ca998d9bf836a, type: 2}
