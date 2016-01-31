@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: cd83124cf2fa78944bb64a07565d9679
+timeCreated: 1454223710
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest
+    100002: Dude_Fat_Body
+    100004: Dude_Fat_GEO
+    100006: //RootNode
+    100008: Dude_Fat_Pants
+    100010: Dude_Fat_Rig_GRP
+    100012: Dude_Fat_Shirt
+    100014: Head
+    100016: Head_Waste
+    100018: Hips
+    100020: Left_Fingers
+    100022: Left_Fingers_Waste
+    100024: Left_Foot
+    100026: Left_Foot_Waste
+    100028: Left_Forearm
+    100030: Left_Hand
+    100032: Left_LowerLeg
+    100034: Left_Shoulder
+    100036: Left_Thumb_01
+    100038: Left_Thumb_02
+    100040: Left_Thumb_Waste
+    100042: Left_Toes
+    100044: Left_UpperArm
+    100046: Left_UpperLeg
+    100048: Neck
+    100050: Right_Fingers
+    100052: Right_Fingers_Waste
+    100054: Right_Foot
+    100056: Right_Foot_Waste
+    100058: Right_Forearm
+    100060: Right_Hand
+    100062: Right_LowerLeg
+    100064: Right_Shoulder
+    100066: Right_Thumb_01
+    100068: Right_Thumb_02
+    100070: Right_Thumb_Waste
+    100072: Right_Toes
+    100074: Right_UpperArm
+    100076: Right_UpperLeg
+    100078: Spine
+    400000: Chest
+    400002: Dude_Fat_Body
+    400004: Dude_Fat_GEO
+    400006: //RootNode
+    400008: Dude_Fat_Pants
+    400010: Dude_Fat_Rig_GRP
+    400012: Dude_Fat_Shirt
+    400014: Head
+    400016: Head_Waste
+    400018: Hips
+    400020: Left_Fingers
+    400022: Left_Fingers_Waste
+    400024: Left_Foot
+    400026: Left_Foot_Waste
+    400028: Left_Forearm
+    400030: Left_Hand
+    400032: Left_LowerLeg
+    400034: Left_Shoulder
+    400036: Left_Thumb_01
+    400038: Left_Thumb_02
+    400040: Left_Thumb_Waste
+    400042: Left_Toes
+    400044: Left_UpperArm
+    400046: Left_UpperLeg
+    400048: Neck
+    400050: Right_Fingers
+    400052: Right_Fingers_Waste
+    400054: Right_Foot
+    400056: Right_Foot_Waste
+    400058: Right_Forearm
+    400060: Right_Hand
+    400062: Right_LowerLeg
+    400064: Right_Shoulder
+    400066: Right_Thumb_01
+    400068: Right_Thumb_02
+    400070: Right_Thumb_Waste
+    400072: Right_Toes
+    400074: Right_UpperArm
+    400076: Right_UpperLeg
+    400078: Spine
+    4300000: Dude_Fat_Body
+    4300002: Dude_Fat_Pants
+    4300004: Dude_Fat_Shirt
+    9500000: //RootNode
+    13700000: Dude_Fat_Body
+    13700002: Dude_Fat_Pants
+    13700004: Dude_Fat_Shirt
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
