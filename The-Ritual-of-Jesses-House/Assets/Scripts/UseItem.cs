@@ -24,10 +24,10 @@ public class UseItem : MonoBehaviour
             Debug.Log(coll.gameObject.name);
             if (pickupable != null && !inventory.IsFull())
             {
-                Debug.Log("Tried to pick up.");
                 anim.SetBool("isAction", true);
                 yield return new WaitForSeconds(0.5f);
-                pickupable.Pickup(player);
+                if(!inventory.IsFull())
+                    pickupable.Pickup(player);
                 inventory.AddItem(coll.gameObject);
             }
             else

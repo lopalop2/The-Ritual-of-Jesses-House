@@ -51,7 +51,7 @@ public class charaController : MonoBehaviour
                 droppedItem.GetComponent<Pickupable>().Drop(gameObject,nymphSpawning);
         }
 
-        if(Input.GetKey(KeyCode.Tab))
+        if(Input.GetKeyDown(KeyCode.Tab))
         {
             inventory.SelectNextItem();
         }

@@ -5,17 +5,20 @@ public class NymphSpawning : MonoBehaviour
 {
     public GameObject[] nymphs;
     public GameObject[] waypoints;
+
     public void Spawn(Vector3 _pickupLoc, Vector3 _returnLoc)
     {
+        int sent = 0;
         foreach(GameObject nymph in nymphs)
         {
-            if (nymph.tag == "Carrying")
+            if (nymph.tag == "Carrying" || nymph.tag == "Traveling")
                 continue;
         
             nymph.SetActive(true);
             NavMeshAgent agent = nymph.GetComponent<NavMeshAgent>();
             agent.Stop();
             agent.ResetPath();
+            nymph.tag = "Traveling";
         
             Vector3 farthestPoint = _pickupLoc;
             foreach(GameObject waypoint in waypoints)
@@ -25,9 +28,11 @@ public class NymphSpawning : MonoBehaviour
             }
         
             nymph.transform.position = farthestPoint;
+            _pickupLoc.x = _pickupLoc.x + sent * 0.5f - 0.25f;
             agent.SetDestination(_pickupLoc);
-        
-            break;
+            
+            if(++sent == 3)
+                break;
         }
         
     }

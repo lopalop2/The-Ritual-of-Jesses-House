@@ -8,16 +8,32 @@ public class NymphController : MonoBehaviour
     private Quaternion targetRotation;
     private GameObject carriedObject;
     private Vector3 exitLocation;
+    private float timeLeft;
 
     void Awake()
     {
         exitLocation = transform.position;
+        timeLeft = 20.0f;
     }
 
     void Update()
     {
+        timeLeft -= Time.deltaTime;
+
+        if(timeLeft <= 0.0f)
+        {
+            timeLeft = 20.0f;
+            if(gameObject.tag != "Carrying")
+            {
+                navMeshAgent.Stop();
+                navMeshAgent.ResetPath();
+                navMeshAgent.gameObject.transform.position = exitLocation;
+                navMeshAgent.gameObject.SetActive(false);
+            }            
+        }
+
         // massive nested statement to take care of nav mesh agent
-        if (!navMeshAgent.pathPending)
+        if (navMeshAgent.enabled && !navMeshAgent.pathPending)
         {
             if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
             {
@@ -25,12 +41,10 @@ public class NymphController : MonoBehaviour
                 {
                     if(carriedObject != null)
                     {
-                        // get rid of the object, no longer carrying it
-                        carriedObject.transform.SetParent(null);
-                        carriedObject.transform.position = targetLocation;
-                        carriedObject.transform.rotation = targetRotation;
-                        carriedObject = null;
-
+                        ReturnToExitSpot();
+                    }
+                    else if(navMeshAgent.gameObject.tag == "Traveling")
+                    {
                         navMeshAgent.gameObject.tag = "Untagged";
                         navMeshAgent.SetDestination(exitLocation);
                     }
@@ -42,6 +56,23 @@ public class NymphController : MonoBehaviour
                 }
             }
         }
+    }
+
+    void ReturnToExitSpot()
+    {
+        // get rid of the object, no longer carrying it
+        if(carriedObject != null)
+        {
+            carriedObject.transform.SetParent(null);
+            carriedObject.transform.position = targetLocation;
+            carriedObject.transform.rotation = targetRotation;
+            carriedObject = null;
+
+            navMeshAgent.gameObject.tag = "Untagged";
+            navMeshAgent.Stop();
+            navMeshAgent.ResetPath();
+            navMeshAgent.SetDestination(exitLocation);
+        }        
     }
     void OnTriggerEnter(Collider coll)
     {
