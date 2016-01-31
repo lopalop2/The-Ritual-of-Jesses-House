@@ -24,11 +24,17 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(GameObject _item)
     {
-		for (int i = 0; i < Size (); ++i)
+		for (int i = 0; i < Size (); ++i){
 			if (items [i] == null)
 			{
 				items[i] = _item;	
-				_item.GetComponent<Image> ();
+
+				if (i == 0) {
+					item1.sprite = _item.GetComponent<Image> ().sprite;
+				}
+				if (i == 1) {
+					item2.sprite = _item.GetComponent<Image> ().sprite;
+				}
 			}
                 return;
             }
