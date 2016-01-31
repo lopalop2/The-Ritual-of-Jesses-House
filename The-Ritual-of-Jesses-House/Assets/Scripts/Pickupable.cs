@@ -7,7 +7,7 @@ public class Pickupable : MonoBehaviour
     const float dropDistance = 0.5f;
     Vector3 originalLocation;
     Quaternion originalRotation;
-    bool isDropped;
+    protected bool isDropped;
 
     void Awake()
     {
@@ -19,7 +19,7 @@ public class Pickupable : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void Drop(GameObject _player, NymphSpawning _nymphSpawning)
+    public virtual void Drop(GameObject _player, NymphSpawning _nymphSpawning)
     {
         Vector3 initPos = gameObject.transform.position;
         Vector3 dropToPos = _player.transform.position;

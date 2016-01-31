@@ -561,7 +561,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 128556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6400815, y: -1.6738516, z: -3.0509286}
+  m_LocalPosition: {x: 1.9274498, y: 0.008648306, z: -1.4377813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 414086}
@@ -1203,6 +1203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationDegreesPerSecond: 360
+  nymphSpawning: {fileID: 0}
   walk: {fileID: 8298764}
 --- !u!114 &11480004
 MonoBehaviour:
@@ -1220,6 +1221,7 @@ MonoBehaviour:
   - {fileID: 0}
   item1: {fileID: 0}
   item2: {fileID: 0}
+  selector: {fileID: 0}
 --- !u!114 &11492344
 MonoBehaviour:
   m_ObjectHideFlags: 1
