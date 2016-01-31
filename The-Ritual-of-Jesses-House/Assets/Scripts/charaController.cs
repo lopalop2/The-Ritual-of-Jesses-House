@@ -44,14 +44,14 @@ public class charaController : MonoBehaviour
         Movement(hor, ver);
 
         
-        if(Input.GetKeyDown(KeyCode.Q))
+		if(Input.GetAxisRaw("Drop") != 0)
         {
             GameObject droppedItem = inventory.RemoveCurrItem();
             if (droppedItem != null)
                 droppedItem.GetComponent<Pickupable>().Drop(gameObject,nymphSpawning);
         }
 
-        if(Input.GetKeyDown(KeyCode.Tab))
+		if(Input.GetAxisRaw("Switch Current Item") != 0)
         {
             inventory.SelectNextItem();
         }

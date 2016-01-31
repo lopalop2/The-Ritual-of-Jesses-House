@@ -17,10 +17,16 @@ public class LevelManager : MonoBehaviour
 	public Slider soundSlider;
 	public AudioSource soundEffects;
 
+	void Awake()
+	{
+		if(!PlayerPrefs.HasKey("Volume"))
+			PlayerPrefs.SetFloat ("Volume", 1);
+	}
+
 
 	public void StartScene () 
 	{
-		SceneManager.LoadScene ("");
+		SceneManager.LoadScene (1);
 		menuSystem.SetSelectedGameObject (gameObject.GetComponent<GameObject> ().GetComponentInChildren<Button> ().gameObject);
 		foreach (GameObject temp in GetComponents<GameObject>()) 
 		{
@@ -30,6 +36,11 @@ public class LevelManager : MonoBehaviour
 				break;
 			}
 		}
+	}
+	public void ChangeVolume ()
+	{
+		PlayerPrefs.SetFloat ("Volume", soundSlider.value);
+		PlayerPrefs.Save ();
 	}
 
 	public void Quit()
@@ -82,10 +93,5 @@ public class LevelManager : MonoBehaviour
 	}
 
 
-	void Update () 
-	{
-		volumeEffect.volume = volumeSlider.value;
-		soundEffects.volume = soundSlider.value;
 
-	}
 }
