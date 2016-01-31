@@ -36,6 +36,7 @@ public class SimulatedCuling : MonoBehaviour
 
     void OnTriggerExit(Collider _col)
     {
+        if(_col.gameObject.tag == "Player")
         rend.enabled = true;
     }
 }
