@@ -348,7 +348,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
 --- !u!1001 &840855366
 Prefab:
   m_ObjectHideFlags: 0
@@ -387,6 +387,10 @@ Prefab:
     - target: {fileID: 435508, guid: 780242cdfcc2a8048ba6e5e38f035620, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480808, guid: 780242cdfcc2a8048ba6e5e38f035620, type: 2}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 780242cdfcc2a8048ba6e5e38f035620, type: 2}
@@ -686,6 +690,26 @@ Prefab:
     - target: {fileID: 475836, guid: 74e3970f77c351648a9f716b9b0ff10d, type: 2}
       propertyPath: m_RootOrder
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488224, guid: 74e3970f77c351648a9f716b9b0ff10d, type: 2}
+      propertyPath: ItemName
+      value: Mansion_Chair (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488224, guid: 74e3970f77c351648a9f716b9b0ff10d, type: 2}
+      propertyPath: locked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488224, guid: 74e3970f77c351648a9f716b9b0ff10d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488224, guid: 74e3970f77c351648a9f716b9b0ff10d, type: 2}
+      propertyPath: Destructable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9517112, guid: 74e3970f77c351648a9f716b9b0ff10d, type: 2}
+      propertyPath: m_HasTransformHierarchy
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 74e3970f77c351648a9f716b9b0ff10d, type: 2}
