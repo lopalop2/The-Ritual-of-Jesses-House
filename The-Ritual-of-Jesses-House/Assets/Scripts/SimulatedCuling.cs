@@ -3,13 +3,21 @@ using System.Collections;
 
 public class SimulatedCuling : MonoBehaviour
 {
+    //Culling**
+    [SerializeField]
+    GameObject wall = null;
 
-    GameObject wall;
+    MeshRenderer rend = null;
 
     // Use this for initialization
     void Start()
     {
 
+    }
+
+    void Awake()
+    {
+        rend = wall.GetComponent<MeshRenderer>();
     }
 
     // Update is called once per frame
@@ -18,17 +26,16 @@ public class SimulatedCuling : MonoBehaviour
 
     }
 
-    void OnColissionStay(Collision _col)
+    void OnTriggerEnter(Collider _col)
     {
         if (_col.gameObject.tag == "Player")
         {
-            wall.gameObject.SetActive(false);
+            rend.enabled = false;
         }
     }
 
-    void OnColissionExit(Collision _col)
+    void OnTriggerExit(Collider _col)
     {
-        wall.gameObject.SetActive(true);
+        rend.enabled = true;
     }
-
 }
