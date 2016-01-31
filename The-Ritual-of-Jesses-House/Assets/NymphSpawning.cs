@@ -12,7 +12,7 @@ public class NymphSpawning : MonoBehaviour
         foreach(GameObject waypoint in waypoints)
         {
             Vector3 newPosition = waypoint.transform.position;
-            newPosition.y = player.transform.position.y;
+            newPosition.y = player.transform.position.y + 0.3f;
             waypoint.transform.position = newPosition;
         }
     }
