@@ -43,13 +43,18 @@ MonoBehaviour:
   - {fileID: 153248, guid: 330b137185045ea40bf72ab0a7e937d9, type: 2}
   - {fileID: 128556, guid: 3ac47cf59c8251b408fbb2e18b1d69f0, type: 2}
   - {fileID: 163804, guid: 4f5ab40c9746b7342b88c69eeec60ee3, type: 2}
+  - {fileID: 111290, guid: 4c14414a754fe614ea74ff46a62b0c92, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: playerPrefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 108120}
