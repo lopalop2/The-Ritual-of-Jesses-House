@@ -3,8 +3,6 @@ using System.Collections;
 
 public class charaController : MonoBehaviour 
 {
-
-    public Inventory inventory;
     public float rotationDegreesPerSecond;
 
     int hashID_walking;
@@ -13,6 +11,10 @@ public class charaController : MonoBehaviour
     Rigidbody rb;
 	CharacterController cc;
 	Vector3 moveDirection = Vector3.zero;
+	public AudioSource walk;
+	float speed = 2;
+    Inventory inventory;
+    private float dropKeyHoldTime;
 
 	// Use this for initialization
 	void Awake()
@@ -21,15 +23,45 @@ public class charaController : MonoBehaviour
         anim = GetComponent<Animator>();
 		rb = GetComponent<Rigidbody>();
 		cc = GetComponent<CharacterController>();
+        inventory = GetComponent<Inventory>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-
+		if(anim.GetBool (hashID_walking) ? walk.mute = false : walk.mute = true);
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
-
+		speed += Input.GetAxis ("Mouse ScrollWheel")  * 5;
+		if (Input.GetAxisRaw("Fire1") != 0)
+		{
+			if (Input.GetAxisRaw ("Fire2") != 0)
+				speed = 10;
+			else if (Input.GetAxisRaw ("Fire3") != 0) {
+				speed = 2;
+			}
+			}
         Movement(hor, ver);
+
+        
+        if(Input.GetKeyUp(KeyCode.Q))
+        {
+            if(dropKeyHoldTime <= 1.0f)
+            {
+                inventory.SelectNextItem();
+            }
+            dropKeyHoldTime = 0;
+        }
+
+        if(Input.GetKey(KeyCode.Q))
+        {
+            dropKeyHoldTime += Time.deltaTime;
+            if (dropKeyHoldTime > 1.0f)
+            {
+                GameObject droppedItem = inventory.RemoveCurrItem();
+                if (droppedItem != null)
+                    droppedItem.GetComponent<Pickupable>().Drop(gameObject);
+            }
+        }
 	}
 
     void Movement(float _hor, float _ver)
@@ -47,7 +79,7 @@ public class charaController : MonoBehaviour
 			
 					moveDirection = new Vector3 (_hor , 0, _ver);
 					//moveDirection = transform.TransformDirection (moveDirection);
-					moveDirection *= 2;
+					moveDirection *= speed;
 			
         	   // rb.velocity = new Vector3(_hor * 5, rb.velocity.y, _ver * 5);
 			

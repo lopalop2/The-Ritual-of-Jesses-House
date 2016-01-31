@@ -1,23 +1,25 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-[System.Serializable]
-public class Inventory
+public class Inventory : MonoBehaviour
 {
     public GameObject[] items;
 	public Image item1;
 	public Image item2;
+
+    private int currItem = 0;
 
     public int Size() { return items.Length; }
     public bool IsFull()
     {
 		foreach (GameObject item in items)
 			if (item == null) 
-                return true;
+                return false;
 
-        return false;
+        return true;
     }
 
     public void AddItem(GameObject _item)
@@ -28,12 +30,19 @@ public class Inventory
 				items[i] = _item;	
 				_item.GetComponent<Image> ();
 			}
+                return;
+            }
     }
 
-    public GameObject RemoveItem(int _index)
+    public void SelectNextItem()
     {
-        GameObject ret = items[_index];
-        items[_index] = null;
+        currItem = currItem == 0 ? 1 : 0;
+    }
+
+    public GameObject RemoveCurrItem()
+    {
+        GameObject ret = items[currItem];
+        items[currItem] = null;
         return ret;
     }
 }
