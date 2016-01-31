@@ -23,7 +23,7 @@ public class NymphController : MonoBehaviour
         if(timeLeft <= 0.0f)
         {
             timeLeft = 20.0f;
-            if(gameObject.tag != "Carrying")
+            if(navMeshAgent.gameObject.tag != "Carrying")
             {
                 navMeshAgent.Stop();
                 navMeshAgent.ResetPath();

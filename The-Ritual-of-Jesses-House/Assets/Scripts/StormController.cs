@@ -22,6 +22,7 @@ public class StormController : MonoBehaviour
 
     void Awake()
     {
+		volume = PlayerPrefs.GetFloat ("Volume");
 		RainAudio.volume = volume;
 		squeakAudio.volume = volume;
         ThunAudio.volume = volume * 3;

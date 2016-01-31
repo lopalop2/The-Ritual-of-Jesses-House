@@ -1200,6 +1200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationDegreesPerSecond: 360
+  nymphSpawning: {fileID: 0}
   walk: {fileID: 8207560}
 --- !u!114 &11457892
 MonoBehaviour:
@@ -1213,8 +1214,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useKey: 101
-  player: {fileID: 0}
-  inventory: {fileID: 0}
+  player: {fileID: 111290}
+  inventory: {fileID: 11487798}
 --- !u!114 &11475584
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1248,6 +1249,7 @@ MonoBehaviour:
   - {fileID: 0}
   item1: {fileID: 0}
   item2: {fileID: 0}
+  selector: {fileID: 0}
 --- !u!136 &13628344
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1351,7 +1353,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 111290}
+    - target: {fileID: 0}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 11487798}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 111290}
