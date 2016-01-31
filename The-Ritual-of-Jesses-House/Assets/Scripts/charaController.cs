@@ -32,6 +32,7 @@ public class charaController : MonoBehaviour
 		if(anim.GetBool (hashID_walking) ? walk.mute = false : walk.mute = true);
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
+		speed += Input.GetAxis ("Mouse ScrollWheel")  * 5;
 		if (Input.GetAxisRaw("Fire1") != 0)
 		{
 			if (Input.GetAxisRaw ("Fire2") != 0)

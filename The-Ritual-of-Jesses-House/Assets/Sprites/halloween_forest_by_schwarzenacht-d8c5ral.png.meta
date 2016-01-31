@@ -1,0 +1,1136 @@
+fileFormatVersion: 2
+guid: 478e77b2632f4bf459317ec45189e310
+timeCreated: 1454146883
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: halloween_forest_by_schwarzenacht-d8c5ral_0
+    21300002: halloween_forest_by_schwarzenacht-d8c5ral_1
+    21300004: halloween_forest_by_schwarzenacht-d8c5ral_2
+    21300006: halloween_forest_by_schwarzenacht-d8c5ral_3
+    21300008: halloween_forest_by_schwarzenacht-d8c5ral_4
+    21300010: halloween_forest_by_schwarzenacht-d8c5ral_5
+    21300012: halloween_forest_by_schwarzenacht-d8c5ral_6
+    21300014: halloween_forest_by_schwarzenacht-d8c5ral_7
+    21300016: halloween_forest_by_schwarzenacht-d8c5ral_8
+    21300018: halloween_forest_by_schwarzenacht-d8c5ral_9
+    21300020: halloween_forest_by_schwarzenacht-d8c5ral_10
+    21300022: halloween_forest_by_schwarzenacht-d8c5ral_11
+    21300024: halloween_forest_by_schwarzenacht-d8c5ral_12
+    21300026: halloween_forest_by_schwarzenacht-d8c5ral_13
+    21300028: halloween_forest_by_schwarzenacht-d8c5ral_14
+    21300030: halloween_forest_by_schwarzenacht-d8c5ral_15
+    21300032: halloween_forest_by_schwarzenacht-d8c5ral_16
+    21300034: halloween_forest_by_schwarzenacht-d8c5ral_17
+    21300036: halloween_forest_by_schwarzenacht-d8c5ral_18
+    21300038: halloween_forest_by_schwarzenacht-d8c5ral_19
+    21300040: halloween_forest_by_schwarzenacht-d8c5ral_20
+    21300042: halloween_forest_by_schwarzenacht-d8c5ral_21
+    21300044: halloween_forest_by_schwarzenacht-d8c5ral_22
+    21300046: halloween_forest_by_schwarzenacht-d8c5ral_23
+    21300048: halloween_forest_by_schwarzenacht-d8c5ral_24
+    21300050: halloween_forest_by_schwarzenacht-d8c5ral_25
+    21300052: halloween_forest_by_schwarzenacht-d8c5ral_26
+    21300054: halloween_forest_by_schwarzenacht-d8c5ral_27
+    21300056: halloween_forest_by_schwarzenacht-d8c5ral_28
+    21300058: halloween_forest_by_schwarzenacht-d8c5ral_29
+    21300060: halloween_forest_by_schwarzenacht-d8c5ral_30
+    21300062: halloween_forest_by_schwarzenacht-d8c5ral_31
+    21300064: halloween_forest_by_schwarzenacht-d8c5ral_32
+    21300066: halloween_forest_by_schwarzenacht-d8c5ral_33
+    21300068: halloween_forest_by_schwarzenacht-d8c5ral_34
+    21300070: halloween_forest_by_schwarzenacht-d8c5ral_35
+    21300072: halloween_forest_by_schwarzenacht-d8c5ral_36
+    21300074: halloween_forest_by_schwarzenacht-d8c5ral_37
+    21300076: halloween_forest_by_schwarzenacht-d8c5ral_38
+    21300078: halloween_forest_by_schwarzenacht-d8c5ral_39
+    21300080: halloween_forest_by_schwarzenacht-d8c5ral_40
+    21300082: halloween_forest_by_schwarzenacht-d8c5ral_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 488
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 479
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 15, y: 16}
+        - {x: -11, y: 16}
+        - {x: -16, y: 6}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 494
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 500
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 411
+        width: 64
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -50.5}
+        - {x: -26, y: -48.5}
+        - {x: -29, y: -47.5}
+        - {x: -31, y: -50.5}
+      - - {x: -31, y: 50.5}
+        - {x: -31, y: -11.5}
+        - {x: -30, y: -13.5}
+        - {x: -19, y: -12.5}
+        - {x: -18, y: -10.5}
+        - {x: -17, y: -7.5}
+        - {x: -17, y: -3.5}
+        - {x: -17, y: -5.5}
+        - {x: -16, y: -8.5}
+        - {x: -9, y: -5.5}
+        - {x: -7, y: -14.5}
+        - {x: -28, y: -17.5}
+        - {x: -30, y: -19.5}
+        - {x: -31, y: -21.5}
+        - {x: -31, y: -41.5}
+        - {x: -27, y: -47.5}
+        - {x: -24, y: -48.5}
+        - {x: -2, y: -48.5}
+        - {x: 29, y: -43.5}
+        - {x: 32, y: -42.5}
+        - {x: 32, y: 50.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_7
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 192
+        width: 155
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: -160}
+        - {x: -54.5, y: -157}
+        - {x: -58.5, y: -157}
+        - {x: -59.5, y: -160}
+      - - {x: 65.5, y: -113}
+        - {x: 76.5, y: -98}
+        - {x: 75.5, y: -87}
+        - {x: 77.5, y: -77}
+        - {x: 77.5, y: -35}
+        - {x: 62.5, y: -33}
+        - {x: 56.5, y: -33}
+        - {x: 55.5, y: -34}
+        - {x: 54.5, y: -37}
+        - {x: 54.5, y: -40}
+        - {x: 54.5, y: -39}
+        - {x: 53.5, y: -36}
+        - {x: 53.5, y: -37}
+        - {x: 56.5, y: -32}
+        - {x: 62.5, y: -24}
+        - {x: 42.5, y: 4}
+        - {x: 27.5, y: -4}
+        - {x: 17.5, y: -15}
+        - {x: 19.5, y: -26}
+        - {x: 21.5, y: -32}
+        - {x: 18.5, y: -23}
+        - {x: 14.5, y: -17}
+        - {x: 12.5, y: -17}
+        - {x: 10.5, y: -19}
+        - {x: 11.5, y: -17}
+        - {x: 33.5, y: 4}
+        - {x: 66.5, y: 11}
+        - {x: 75.5, y: 25}
+        - {x: 47.5, y: 39}
+        - {x: 72.5, y: 39}
+        - {x: 77.5, y: 62}
+        - {x: 77.5, y: 115}
+        - {x: 66.5, y: 117}
+        - {x: 62.5, y: 113}
+        - {x: 60.5, y: 106}
+        - {x: 60.5, y: 103}
+        - {x: 57.5, y: 101}
+        - {x: 53.5, y: 97}
+        - {x: 50.5, y: 92}
+        - {x: 50.5, y: 88}
+        - {x: 45.5, y: 88}
+        - {x: 59.5, y: 104}
+        - {x: 61.5, y: 112}
+        - {x: 61.5, y: 125}
+        - {x: 59.5, y: 127}
+        - {x: 56.5, y: 127}
+        - {x: 54.5, y: 123}
+        - {x: 50.5, y: 123}
+        - {x: 52.5, y: 124}
+        - {x: 56.5, y: 128}
+        - {x: 56.5, y: 134}
+        - {x: 46.5, y: 160}
+        - {x: -13.5, y: 160}
+        - {x: -23.5, y: 157}
+        - {x: -21.5, y: 149}
+        - {x: -21.5, y: 138}
+        - {x: -21.5, y: 145}
+        - {x: -23.5, y: 152}
+        - {x: -26.5, y: 156}
+        - {x: -29.5, y: 157}
+        - {x: -37.5, y: 151}
+        - {x: -54.5, y: 158}
+        - {x: -69.5, y: 158}
+        - {x: -75.5, y: 131}
+        - {x: -71.5, y: 121}
+        - {x: -68.5, y: 120}
+        - {x: -62.5, y: 119}
+        - {x: -62.5, y: 109}
+        - {x: -58.5, y: 105}
+        - {x: -50.5, y: 105}
+        - {x: -47.5, y: 108}
+        - {x: -47.5, y: 111}
+        - {x: -48.5, y: 114}
+        - {x: -52.5, y: 120}
+        - {x: -50.5, y: 124}
+        - {x: -50.5, y: 126}
+        - {x: -47.5, y: 128}
+        - {x: -50.5, y: 125}
+        - {x: -50.5, y: 122}
+        - {x: -47.5, y: 114}
+        - {x: -45.5, y: 112}
+        - {x: -46.5, y: 107}
+        - {x: -46.5, y: 90}
+        - {x: -62.5, y: 102}
+        - {x: -64.5, y: 114}
+        - {x: -76.5, y: 110}
+        - {x: -77.5, y: 106}
+        - {x: -77.5, y: 75}
+        - {x: -58.5, y: 59}
+        - {x: -56.5, y: 69}
+        - {x: -56.5, y: 76}
+        - {x: -56.5, y: 66}
+        - {x: -51.5, y: 42}
+        - {x: -23.5, y: 63}
+        - {x: -27.5, y: 70}
+        - {x: -31.5, y: 75}
+        - {x: -38.5, y: 72}
+        - {x: -34.5, y: 75}
+        - {x: -25.5, y: 76}
+        - {x: -19.5, y: 67}
+        - {x: -61.5, y: 24}
+        - {x: -60.5, y: 19}
+        - {x: -52.5, y: 13}
+        - {x: -25.5, y: 1}
+        - {x: -31.5, y: 3}
+        - {x: -77.5, y: -3}
+        - {x: -77.5, y: -22}
+        - {x: -72.5, y: -39}
+        - {x: -62.5, y: -41}
+        - {x: -62.5, y: -51}
+        - {x: -58.5, y: -55}
+        - {x: -50.5, y: -55}
+        - {x: -53.5, y: -62}
+        - {x: -61.5, y: -63}
+        - {x: -64.5, y: -47}
+        - {x: -77.5, y: -46}
+        - {x: -77.5, y: -97}
+        - {x: -70.5, y: -100}
+        - {x: -61.5, y: -98}
+        - {x: -56.5, y: -91}
+        - {x: -56.5, y: -84}
+        - {x: -56.5, y: -94}
+        - {x: -63.5, y: -147}
+        - {x: -62.5, y: -160}
+        - {x: 77.5, y: -160}
+        - {x: 77.5, y: -151}
+        - {x: 76.5, y: -135}
+        - {x: 47.5, y: -120}
+        - {x: 26.5, y: -121}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 66
+        width: 97
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: -96}
+        - {x: 17.5, y: -97}
+        - {x: 15.5, y: -102}
+        - {x: 15.5, y: -106}
+        - {x: 18.5, y: -109}
+        - {x: 18.5, y: -122}
+        - {x: 18.5, y: -118}
+        - {x: 17.5, y: -115}
+        - {x: 16.5, y: -108}
+        - {x: 14.5, y: -105}
+        - {x: 15.5, y: -100}
+        - {x: 9.5, y: -94}
+        - {x: 13.5, y: -91}
+        - {x: 24.5, y: -96}
+        - {x: 37.5, y: -96}
+        - {x: 48.5, y: -92}
+        - {x: 48.5, y: 196}
+        - {x: 18.5, y: 196}
+        - {x: 22.5, y: 199}
+        - {x: 29.5, y: 198}
+        - {x: 32.5, y: 198}
+        - {x: 48.5, y: 205}
+        - {x: 48.5, y: 219}
+        - {x: 22.5, y: 220}
+        - {x: 12.5, y: 220}
+        - {x: 10.5, y: 215}
+        - {x: 10.5, y: 204}
+        - {x: 10.5, y: 211}
+        - {x: 9.5, y: 220}
+        - {x: -45.5, y: 220}
+        - {x: -48.5, y: 218}
+        - {x: -48.5, y: 2}
+        - {x: 14.5, y: -8}
+        - {x: 14.5, y: -56}
+        - {x: 14.5, y: -53}
+        - {x: 12.5, y: -50}
+        - {x: 13.5, y: -43}
+        - {x: 11.5, y: -37}
+        - {x: 5.5, y: -31}
+        - {x: -0.5, y: -34}
+        - {x: -15.5, y: -49}
+        - {x: -14.5, y: -62}
+        - {x: -13.5, y: -91}
+        - {x: -20.5, y: -94}
+        - {x: -21.5, y: -95}
+        - {x: -28.5, y: -95}
+        - {x: -26.5, y: -95}
+        - {x: -21.5, y: -94}
+        - {x: -18.5, y: -93}
+        - {x: -15.5, y: -89}
+        - {x: -15.5, y: -86}
+        - {x: -18.5, y: -83}
+        - {x: -14.5, y: -79}
+        - {x: -14.5, y: -71}
+        - {x: -16.5, y: -47}
+        - {x: -19.5, y: -40}
+        - {x: -25.5, y: -34}
+        - {x: -47.5, y: -34}
+        - {x: -48.5, y: -39}
+        - {x: -48.5, y: -220}
+        - {x: 39.5, y: -220}
+        - {x: 48.5, y: -204}
+        - {x: 48.5, y: -105}
+        - {x: 39.5, y: -100}
+      - - {x: -19.5, y: -174}
+        - {x: -16.5, y: -173}
+        - {x: -16.5, y: -170}
+        - {x: -19.5, y: -169}
+        - {x: -21.5, y: -171}
+      - - {x: -48.5, y: 5}
+        - {x: -48.5, y: -33}
+        - {x: -1.5, y: -33}
+        - {x: 14.5, y: -27}
+        - {x: 14.5, y: -1}
+        - {x: -11.5, y: 5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 481
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 481
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 481
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 483
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 480
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 48}
+        - {x: 32, y: 39}
+        - {x: 32, y: 36}
+        - {x: 32, y: 38}
+        - {x: 31, y: 46}
+        - {x: 29, y: 48}
+        - {x: 0, y: 48}
+        - {x: -3, y: 44}
+        - {x: -6, y: 33}
+        - {x: -4, y: 18}
+        - {x: -2, y: 14}
+        - {x: -5, y: 12}
+        - {x: -9, y: 0}
+        - {x: -10, y: -1}
+        - {x: -4, y: 14}
+        - {x: -6, y: 27}
+        - {x: -13, y: 42}
+        - {x: -21, y: 46}
+        - {x: -23, y: 42}
+        - {x: -28, y: 48}
+        - {x: -45, y: 48}
+        - {x: -63, y: 31}
+        - {x: -63, y: -29}
+        - {x: -58, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 41}
+        - {x: 47, y: 48}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 384
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 39}
+        - {x: 16.5, y: 38}
+        - {x: 15.5, y: 35}
+        - {x: 14.5, y: 43}
+        - {x: 12.5, y: 47}
+        - {x: -28.5, y: 47}
+        - {x: -28.5, y: -41}
+        - {x: -26.5, y: -47}
+        - {x: 28.5, y: -47}
+        - {x: 28.5, y: 31}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 392
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 387
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 386
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 44.5}
+        - {x: 6, y: 37.5}
+        - {x: 4, y: 35.5}
+        - {x: 4, y: 33.5}
+        - {x: 6, y: 30.5}
+        - {x: 5, y: 32.5}
+        - {x: 2, y: 32.5}
+        - {x: 3, y: 35.5}
+        - {x: 2, y: 44.5}
+        - {x: -32, y: 44.5}
+        - {x: -32, y: -44.5}
+        - {x: 32, y: -44.5}
+        - {x: 32, y: 40.5}
+        - {x: 31, y: 44.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 291
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: -21.5}
+        - {x: 24.5, y: -18.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 24.5, y: -18.5}
+        - {x: 30.5, y: -17.5}
+        - {x: 31.5, y: -16.5}
+        - {x: 31.5, y: 16.5}
+        - {x: 12.5, y: 45.5}
+        - {x: -1.5, y: 45.5}
+        - {x: -2.5, y: 44.5}
+        - {x: -4.5, y: 28.5}
+        - {x: -3.5, y: 34.5}
+        - {x: -3.5, y: 37.5}
+        - {x: -7.5, y: 41.5}
+        - {x: -12.5, y: 42.5}
+        - {x: -25.5, y: 38.5}
+        - {x: -31.5, y: 27.5}
+        - {x: -31.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 24.5, y: -44.5}
+        - {x: 23.5, y: -41.5}
+        - {x: 31.5, y: -36.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 289
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 45}
+        - {x: -31.5, y: 25}
+        - {x: -31.5, y: -45}
+        - {x: 31.5, y: -45}
+        - {x: 31.5, y: 45}
+      - - {x: 28.5, y: -1}
+        - {x: 30.5, y: -2}
+        - {x: 31.5, y: -2}
+        - {x: 31.5, y: 8}
+        - {x: 28.5, y: 7}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 336
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_23
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 320
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 30.5}
+        - {x: -29, y: 20.5}
+        - {x: -29, y: 14.5}
+        - {x: -23, y: 8.5}
+        - {x: -29, y: -2.5}
+        - {x: -29, y: -30.5}
+        - {x: 29, y: -30.5}
+        - {x: 29, y: 30.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 289
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 65
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: -11}
+        - {x: 15.5, y: -10}
+        - {x: 13.5, y: -9}
+        - {x: 12.5, y: -4}
+        - {x: 13.5, y: -8}
+        - {x: 15.5, y: -10}
+        - {x: 18.5, y: -10}
+        - {x: 24.5, y: -7}
+        - {x: 32.5, y: 15}
+        - {x: 32.5, y: 32}
+        - {x: 25.5, y: 42}
+        - {x: 5.5, y: 39}
+        - {x: 3.5, y: 37}
+        - {x: 3.5, y: 35}
+        - {x: 5.5, y: 32}
+        - {x: 3.5, y: 35}
+        - {x: 1.5, y: 47}
+        - {x: -32.5, y: 47}
+        - {x: -32.5, y: -47}
+        - {x: 24.5, y: -47}
+        - {x: 32.5, y: -39}
+        - {x: 32.5, y: -17}
+        - {x: 29.5, y: -12}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 195
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -17.5}
+        - {x: 15.5, y: -16.5}
+        - {x: 12.5, y: -18.5}
+        - {x: 15.5, y: -16.5}
+        - {x: 23.5, y: -18.5}
+        - {x: 29.5, y: -17.5}
+        - {x: 30.5, y: -16.5}
+        - {x: 30.5, y: 16.5}
+        - {x: 11.5, y: 45.5}
+        - {x: -2.5, y: 45.5}
+        - {x: -3.5, y: 44.5}
+        - {x: -5.5, y: 28.5}
+        - {x: -4.5, y: 34.5}
+        - {x: -4.5, y: 37.5}
+        - {x: -12.5, y: 45.5}
+        - {x: -19.5, y: 45.5}
+        - {x: -30.5, y: 35.5}
+        - {x: -30.5, y: -45.5}
+        - {x: 26.5, y: -45.5}
+        - {x: 30.5, y: -39.5}
+        - {x: 30.5, y: -21.5}
+        - {x: 23.5, y: -18.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 194
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 45.5}
+        - {x: -29.5, y: 30.5}
+        - {x: -31.5, y: 19.5}
+        - {x: -31.5, y: -36.5}
+        - {x: -22.5, y: -45.5}
+        - {x: 25.5, y: -45.5}
+        - {x: 31.5, y: -29.5}
+        - {x: 31.5, y: 13.5}
+        - {x: 25.5, y: 45.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 193
+        width: 54
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 37.5}
+        - {x: 14, y: 34.5}
+        - {x: 13, y: 42.5}
+        - {x: 10, y: 46.5}
+        - {x: 3, y: 46.5}
+        - {x: 1, y: 43.5}
+        - {x: -11, y: 46.5}
+        - {x: -23, y: 46.5}
+        - {x: -27, y: 42.5}
+        - {x: -27, y: -46.5}
+        - {x: 21, y: -46.5}
+        - {x: 27, y: -42.5}
+        - {x: 27, y: 29.5}
+        - {x: 23, y: 39.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 45}
+        - {x: 2.5, y: 37}
+        - {x: 6.5, y: 31}
+        - {x: 5.5, y: 33}
+        - {x: 2.5, y: 33}
+        - {x: 2.5, y: 40}
+        - {x: 0.5, y: 45}
+        - {x: -32.5, y: 45}
+        - {x: -32.5, y: -45}
+        - {x: 21.5, y: -45}
+        - {x: 32.5, y: -38}
+        - {x: 32.5, y: 45}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 99
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -18}
+        - {x: 21, y: -17}
+        - {x: 23, y: -18}
+        - {x: 29, y: -17}
+        - {x: 31, y: -14}
+        - {x: 31, y: 16}
+        - {x: 11, y: 46}
+        - {x: -3, y: 46}
+        - {x: -4, y: 45}
+        - {x: -6, y: 29}
+        - {x: -5, y: 35}
+        - {x: -5, y: 38}
+        - {x: -8, y: 43}
+        - {x: -31, y: 44}
+        - {x: -31, y: -46}
+        - {x: 26, y: -46}
+        - {x: 31, y: -41}
+        - {x: 31, y: -21}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 99
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 11}
+        - {x: 16.5, y: 11}
+        - {x: 14.5, y: 10}
+        - {x: 18.5, y: 15}
+        - {x: 19.5, y: 11}
+        - {x: 21.5, y: 9}
+        - {x: 22.5, y: 9}
+        - {x: 27.5, y: 12}
+        - {x: 23.5, y: 45}
+        - {x: -21.5, y: 45}
+        - {x: -30.5, y: 37}
+        - {x: -30.5, y: -45}
+        - {x: 28.5, y: -45}
+        - {x: 30.5, y: -35}
+        - {x: 30.5, y: -9}
+        - {x: 20.5, y: 9}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_32
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 95
+        width: 221
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: -18}
+        - {x: 11.5, y: -17}
+        - {x: 5.5, y: -20}
+        - {x: 0.5, y: -18}
+        - {x: -6.5, y: -19}
+        - {x: -11.5, y: -22}
+        - {x: -12.5, y: -29}
+        - {x: -12.5, y: -46}
+        - {x: -8.5, y: -49}
+        - {x: 41.5, y: -49}
+        - {x: 45.5, y: -47}
+        - {x: 45.5, y: -44}
+        - {x: 42.5, y: -41}
+        - {x: 42.5, y: -25}
+        - {x: 48.5, y: -49}
+        - {x: 110.5, y: -49}
+        - {x: 110.5, y: 49}
+        - {x: -52.5, y: 49}
+        - {x: -51.5, y: 46}
+        - {x: -52.5, y: 26}
+        - {x: -52.5, y: 35}
+        - {x: -56.5, y: 41}
+        - {x: -77.5, y: 44}
+        - {x: -79.5, y: 38}
+        - {x: -79.5, y: 35}
+        - {x: -79.5, y: 37}
+        - {x: -80.5, y: 45}
+        - {x: -82.5, y: 49}
+        - {x: -85.5, y: 49}
+        - {x: -110.5, y: 38}
+        - {x: -110.5, y: -23}
+        - {x: -98.5, y: -49}
+        - {x: -18.5, y: -49}
+        - {x: -13.5, y: -46}
+        - {x: -14.5, y: -18}
+      - - {x: 45.5, y: -45}
+        - {x: 47.5, y: -47}
+        - {x: 50.5, y: -46}
+        - {x: 50.5, y: -43}
+        - {x: 48.5, y: -41}
+        - {x: 45.5, y: -42}
+      - - {x: 107.5, y: -22}
+        - {x: 109.5, y: -24}
+        - {x: 110.5, y: -24}
+        - {x: 110.5, y: -18}
+        - {x: 107.5, y: -19}
+      - - {x: 26.5, y: 49}
+        - {x: 27.5, y: 46}
+        - {x: 35.5, y: 46}
+        - {x: 37.5, y: 48}
+        - {x: 37.5, y: 49}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 36.5}
+        - {x: 6, y: 30.5}
+        - {x: 5, y: 32.5}
+        - {x: 2, y: 32.5}
+        - {x: 2, y: 39.5}
+        - {x: 0, y: 45.5}
+        - {x: -33, y: 45.5}
+        - {x: -33, y: -45.5}
+        - {x: 22, y: -45.5}
+        - {x: 33, y: -41.5}
+        - {x: 33, y: 37.5}
+        - {x: 13, y: 45.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_34
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -21}
+        - {x: 23, y: -18}
+        - {x: 21, y: -17}
+        - {x: 23, y: -18}
+        - {x: 29, y: -17}
+        - {x: 31, y: -14}
+        - {x: 31, y: 16}
+        - {x: 11, y: 46}
+        - {x: -3, y: 46}
+        - {x: -4, y: 45}
+        - {x: -6, y: 29}
+        - {x: -5, y: 35}
+        - {x: -5, y: 38}
+        - {x: -13, y: 46}
+        - {x: -20, y: 46}
+        - {x: -31, y: 36}
+        - {x: -31, y: -24}
+        - {x: -20, y: -35}
+        - {x: -18, y: -35}
+        - {x: -25, y: -35}
+        - {x: -28, y: -36}
+        - {x: -31, y: -38}
+        - {x: -31, y: -46}
+        - {x: 22, y: -46}
+        - {x: 24, y: -44}
+        - {x: 23, y: -41}
+        - {x: 31, y: -35}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_35
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 3
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 45.5}
+        - {x: -31, y: 41.5}
+        - {x: -31, y: -38.5}
+        - {x: -23, y: -45.5}
+        - {x: 23, y: -45.5}
+        - {x: 31, y: -37.5}
+        - {x: 31, y: 6.5}
+        - {x: 26, y: 45.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_36
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 44.5}
+        - {x: 10, y: 40.5}
+        - {x: 10, y: 39.5}
+        - {x: 4, y: 45.5}
+        - {x: -6, y: 45.5}
+        - {x: -22, y: 34.5}
+        - {x: -30, y: 28.5}
+        - {x: -30, y: -6.5}
+        - {x: -27, y: -28.5}
+        - {x: -21, y: -45.5}
+        - {x: 17, y: -45.5}
+        - {x: 30, y: -37.5}
+        - {x: 30, y: 34.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1
+        width: 154
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71, y: 26.5}
+        - {x: 69, y: 24.5}
+        - {x: 75, y: 32.5}
+        - {x: 76, y: 43.5}
+        - {x: 63, y: 46.5}
+        - {x: -70, y: 46.5}
+        - {x: -77, y: 36.5}
+        - {x: -77, y: -31.5}
+        - {x: -64, y: -46.5}
+        - {x: 77, y: -46.5}
+        - {x: 77, y: 25.5}
+        - {x: 73, y: 26.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_38
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 5
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 34.5}
+        - {x: -17, y: 24.5}
+        - {x: -17, y: -22.5}
+        - {x: -12, y: -34.5}
+        - {x: 14, y: -34.5}
+        - {x: 17, y: -32.5}
+        - {x: 17, y: 29.5}
+        - {x: 13, y: 34.5}
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_39
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 32
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_40
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 6
+        width: 51
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: halloween_forest_by_schwarzenacht-d8c5ral_41
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
