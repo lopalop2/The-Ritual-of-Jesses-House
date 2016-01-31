@@ -6,14 +6,16 @@ public class UseItem : MonoBehaviour
     public KeyCode useKey;
     public GameObject player;
     public Inventory inventory;
+    private Animator anim;
     bool isPlayerUsing;
 
     void Awake()
     {
         isPlayerUsing = false;
+        anim = player.GetComponent<Animator>();
     }
 
-    void OnTriggerStay(Collider coll)
+    IEnumerator OnTriggerStay(Collider coll)
     {
         if (Input.GetKeyDown(useKey))
         {
@@ -23,6 +25,8 @@ public class UseItem : MonoBehaviour
             if (pickupable != null && !inventory.IsFull())
             {
                 Debug.Log("Tried to pick up.");
+                anim.SetBool("isAction", true);
+                yield return new WaitForSeconds(0.5f);
                 pickupable.Pickup(player);
                 inventory.AddItem(coll.gameObject);
             }
@@ -32,7 +36,7 @@ public class UseItem : MonoBehaviour
                     if (mb is IUsable)
                         (mb as IUsable).Use(player);
                     else
-                        return;
+                        yield return null;
             }
         }
 
