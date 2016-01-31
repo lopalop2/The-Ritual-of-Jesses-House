@@ -10,18 +10,7 @@ public class Floor2Trigger : MonoBehaviour
 
     bool isFloor2 = false;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    //Make sure player is tagged as such!
     void OnTriggerEnter(Collider _col)
     {
         if (_col.gameObject.tag == "Player" && !isFloor2)
