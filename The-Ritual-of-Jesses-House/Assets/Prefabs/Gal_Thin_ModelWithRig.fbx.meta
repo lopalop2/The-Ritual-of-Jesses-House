@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 7e4677d5065819d40861c722af1b9869
+timeCreated: 1454196374
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest
+    100002: Gal_Dress
+    100004: Gal_Thin
+    100006: Gal_Thin_Body
+    100008: //RootNode
+    100010: group1
+    100012: Head
+    100014: Head_Waste
+    100016: Hips
+    100018: Left_Fingers
+    100020: Left_Fingers_Waste
+    100022: Left_Foot
+    100024: Left_Foot_Waste
+    100026: Left_Forearm
+    100028: Left_Hand
+    100030: Left_LowerLeg
+    100032: Left_Shoulder
+    100034: Left_Thumb_01
+    100036: Left_Thumb_02
+    100038: Left_Thumb_Waste
+    100040: Left_Toes
+    100042: Left_UpperArm
+    100044: Left_UpperLeg
+    100046: Neck
+    100048: Right_Fingers
+    100050: Right_Fingers_Waste
+    100052: Right_Foot
+    100054: Right_Foot_Waste
+    100056: Right_Forearm
+    100058: Right_Hand
+    100060: Right_LowerLeg
+    100062: Right_Shoulder
+    100064: Right_Thumb_01
+    100066: Right_Thumb_02
+    100068: Right_Thumb_Waste
+    100070: Right_Toes
+    100072: Right_UpperArm
+    100074: Right_UpperLeg
+    100076: Spine
+    400000: Chest
+    400002: Gal_Dress
+    400004: Gal_Thin
+    400006: Gal_Thin_Body
+    400008: //RootNode
+    400010: group1
+    400012: Head
+    400014: Head_Waste
+    400016: Hips
+    400018: Left_Fingers
+    400020: Left_Fingers_Waste
+    400022: Left_Foot
+    400024: Left_Foot_Waste
+    400026: Left_Forearm
+    400028: Left_Hand
+    400030: Left_LowerLeg
+    400032: Left_Shoulder
+    400034: Left_Thumb_01
+    400036: Left_Thumb_02
+    400038: Left_Thumb_Waste
+    400040: Left_Toes
+    400042: Left_UpperArm
+    400044: Left_UpperLeg
+    400046: Neck
+    400048: Right_Fingers
+    400050: Right_Fingers_Waste
+    400052: Right_Foot
+    400054: Right_Foot_Waste
+    400056: Right_Forearm
+    400058: Right_Hand
+    400060: Right_LowerLeg
+    400062: Right_Shoulder
+    400064: Right_Thumb_01
+    400066: Right_Thumb_02
+    400068: Right_Thumb_Waste
+    400070: Right_Toes
+    400072: Right_UpperArm
+    400074: Right_UpperLeg
+    400076: Spine
+    4300000: Gal_Thin_Body
+    4300002: Gal_Dress
+    9500000: //RootNode
+    13700000: Gal_Dress
+    13700002: Gal_Thin_Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

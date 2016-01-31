@@ -4,6 +4,7 @@ using System.Collections;
 public class charaController : MonoBehaviour 
 {
     public float rotationDegreesPerSecond;
+    public NymphSpawning nymphSpawning;
 
     int hashID_walking;
 
@@ -43,24 +44,16 @@ public class charaController : MonoBehaviour
         Movement(hor, ver);
 
         
-        if(Input.GetKeyUp(KeyCode.Q))
+        if(Input.GetKeyDown(KeyCode.Q))
         {
-            if(dropKeyHoldTime <= 1.0f)
-            {
-                inventory.SelectNextItem();
-            }
-            dropKeyHoldTime = 0;
+            GameObject droppedItem = inventory.RemoveCurrItem();
+            if (droppedItem != null)
+                droppedItem.GetComponent<Pickupable>().Drop(gameObject,nymphSpawning);
         }
 
-        if(Input.GetKey(KeyCode.Q))
+        if(Input.GetKeyDown(KeyCode.Tab))
         {
-            dropKeyHoldTime += Time.deltaTime;
-            if (dropKeyHoldTime > 1.0f)
-            {
-                GameObject droppedItem = inventory.RemoveCurrItem();
-                if (droppedItem != null)
-                    droppedItem.GetComponent<Pickupable>().Drop(gameObject);
-            }
+            inventory.SelectNextItem();
         }
 	}
 
