@@ -5728,6 +5728,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 11428590, guid: b550f4e7de44f8b45bfb5ad9a1328329, type: 2}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1319275439}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b550f4e7de44f8b45bfb5ad9a1328329, type: 2}
   m_IsPrefabParent: 0
@@ -7155,6 +7159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationDegreesPerSecond: 360
+  nymphSpawning: {fileID: 0}
   walk: {fileID: 1416901969}
 --- !u!82 &1416901969
 AudioSource:
