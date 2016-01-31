@@ -3,9 +3,20 @@ using System.Collections;
 
 public class NymphSpawning : MonoBehaviour 
 {
+    public GameObject player;
     public GameObject[] nymphs;
     public GameObject[] waypoints;
 
+    public void Update()
+    {
+        foreach(GameObject waypoint in waypoints)
+        {
+            Vector3 newPosition = waypoint.transform.position;
+            newPosition.y = player.transform.position.y;
+            waypoint.transform.position = newPosition;
+        }
+    }
+    
     public void Spawn(Vector3 _pickupLoc, Vector3 _returnLoc)
     {
         int sent = 0;

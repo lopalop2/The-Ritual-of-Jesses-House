@@ -424,6 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1da74e0716ff8b44dbce60bf3f14ba9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1720115833}
   nymphs:
   - {fileID: 1985201336}
   - {fileID: 519886109}
@@ -5580,8 +5581,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7515,7 +7516,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 427034, guid: 38c4b999b4a435044a033edabb6947dc, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402094, guid: 38c4b999b4a435044a033edabb6947dc, type: 2}
       propertyPath: m_LocalPosition.z
@@ -8532,8 +8533,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9881,6 +9882,10 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 153248, guid: 330b137185045ea40bf72ab0a7e937d9, type: 2}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 330b137185045ea40bf72ab0a7e937d9, type: 2}
   m_IsPrefabParent: 0
@@ -9994,6 +9999,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 350536972}
   m_RootOrder: 0
+--- !u!1 &1720115833 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 153248, guid: 330b137185045ea40bf72ab0a7e937d9, type: 2}
+  m_PrefabInternal: {fileID: 1703287641}
 --- !u!1 &1727169447
 GameObject:
   m_ObjectHideFlags: 0

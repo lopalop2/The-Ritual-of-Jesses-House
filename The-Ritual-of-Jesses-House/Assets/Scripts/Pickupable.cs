@@ -23,11 +23,16 @@ public class Pickupable : MonoBehaviour
     {
         Vector3 initPos = gameObject.transform.position;
         Vector3 dropToPos = _player.transform.position;
-         
+
+        if (_player.transform.position.y < 4.21f)
+        {
+            dropToPos.y = 0.415f;
+        }
+
         gameObject.transform.position = dropToPos;
+        
         gameObject.SetActive(true);
         _nymphSpawning.Spawn(dropToPos, initPos);
-
         isDropped = true;
     }
 
