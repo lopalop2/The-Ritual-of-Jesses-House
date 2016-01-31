@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class charaController : MonoBehaviour 
+public class charaController1 : MonoBehaviour 
 {
     public float rotationDegreesPerSecond;
 
@@ -29,8 +29,8 @@ public class charaController : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
 		if(anim.GetBool (hashID_walking) ? walk.mute = false : walk.mute = true);
-        float hor = Input.GetAxis("Horizontal");
-        float ver = Input.GetAxis("Vertical");
+        float hor = Input.GetAxis("Horizontal2");
+        float ver = Input.GetAxis("Vertical2");
 		speed += Input.GetAxis ("Mouse ScrollWheel")  * 5;
 		if (Input.GetAxisRaw("Fire1") != 0)
 		{
