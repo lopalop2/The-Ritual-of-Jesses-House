@@ -25,7 +25,6 @@ public class ItemStealer : MonoBehaviour {
 	
         if(hitFloor == true && spawnSet == true)
         {
-
             ReturnToSpawn();
         }
 	}
