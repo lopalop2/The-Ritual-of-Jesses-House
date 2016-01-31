@@ -7,18 +7,25 @@ public class StormController : MonoBehaviour
     AudioSource RainAudio = null;
     [SerializeField]
     AudioSource ThunAudio = null;
+	[SerializeField]
+	AudioSource squeakAudio = null;
+
 
     [SerializeField]
     AudioClip rain = null;
     [SerializeField]
     AudioClip thunder = null;
+	[SerializeField]
+	AudioClip squeak = null;
 
     float volume = 0.1f;
 
     void Awake()
     {
-        RainAudio.volume = volume;
+		RainAudio.volume = volume;
+		squeakAudio.volume = volume;
         ThunAudio.volume = volume * 3;
+		Invoke ("Squeak", Random.Range (0, 5));
     }
 
 
@@ -40,4 +47,15 @@ public class StormController : MonoBehaviour
     {
         ThunAudio.PlayOneShot(thunder);
     }
+
+	void Squeak()
+	{
+		if (squeakAudio.mute) {
+			squeakAudio.mute = false;
+			Invoke ("Squeak", Random.Range (0, 5));
+		} else {
+			squeakAudio.mute = true;
+			Invoke ("Squeak", Random.Range (5, 20));
+		}
+	}
 }

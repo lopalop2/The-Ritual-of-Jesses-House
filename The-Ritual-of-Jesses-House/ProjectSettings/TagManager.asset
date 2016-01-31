@@ -8,6 +8,7 @@ TagManager:
   - Floor
   - PickupSpawn
   - keyitem
+  - sledge
   - Carrying
   - Traveling
   layers:
