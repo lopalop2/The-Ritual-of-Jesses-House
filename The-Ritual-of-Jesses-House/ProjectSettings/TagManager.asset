@@ -9,6 +9,8 @@ TagManager:
   - PickupSpawn
   - keyitem
   - sledge
+  - Carrying
+  - Traveling
   layers:
   - Default
   - TransparentFX

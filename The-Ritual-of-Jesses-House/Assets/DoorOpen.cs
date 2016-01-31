@@ -19,6 +19,20 @@ public class DoorOpen : MonoBehaviour, IUsable
     [SerializeField]
     GameObject[] items2;
 
+	AudioSource audio = null;
+
+	[SerializeField]
+	AudioClip lockedclip= null;
+
+	[SerializeField]
+	AudioClip unlockclip= null;
+
+	[SerializeField]
+	AudioClip breakdownclip = null;
+
+	[SerializeField]
+	AudioClip closeclip = null;
+
     [SerializeField]
     int x = 0;
     [SerializeField]
@@ -33,7 +47,7 @@ public class DoorOpen : MonoBehaviour, IUsable
 
     void Awake()
     {
-
+		audio = GetComponentInParent<AudioSource> ();
     }
     public void Use(GameObject _player)
     {
@@ -59,6 +73,8 @@ public class DoorOpen : MonoBehaviour, IUsable
                                     {
                                         plyinv.items[i] = null;
                                     }
+									if(!audio.isPlaying)
+										audio.PlayOneShot (breakdownclip);
                                     gameObject.transform.localRotation = Quaternion.Euler(x, y, z);
                                     destroyed = true;
                                     return;
@@ -72,6 +88,9 @@ public class DoorOpen : MonoBehaviour, IUsable
                         }
                     }
                 }
+				if(!audio.isPlaying)
+					audio.PlayOneShot (lockedclip);
+
             }
         }
         if (!locked)
@@ -80,6 +99,8 @@ public class DoorOpen : MonoBehaviour, IUsable
             if (!test)
             {
                 gameObject.transform.localRotation = new Quaternion(0, 45, 0, 0);
+				if(!audio.isPlaying)
+					audio.PlayOneShot (unlockclip);
                 test = true;
             }
             else
@@ -89,6 +110,9 @@ public class DoorOpen : MonoBehaviour, IUsable
                 else
                     gameObject.transform.localRotation = Quaternion.Euler(0, 270, 0);
 
+
+				if(!audio.isPlaying)
+					audio.PlayOneShot (closeclip);
                 test = false;
             }
         }

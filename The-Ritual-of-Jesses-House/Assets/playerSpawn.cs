@@ -13,6 +13,6 @@ public class playerSpawn : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetAxis("Fire1") != 0 &&Input.GetAxis("Fire2") != 0 &&Input.GetAxis("Fire3") != 0)
-			Instantiate(playerPrefabs[Random.Range(0,playerPrefabs.Length)]);
+			Instantiate(playerPrefabs[Random.Range(0,playerPrefabs.Length)]).transform.position = transform.position;
 	}
 }
