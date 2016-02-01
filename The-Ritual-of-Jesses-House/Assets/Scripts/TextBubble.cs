@@ -5,6 +5,8 @@ public class TextBubble : MonoBehaviour
 {
     TextBubble bubble;
 
+    public float triangleOffsetX = 0.5f;
+
     protected string bubbleString = "Set Me";
     //this game object's transform  
     private Transform goTransform;  
@@ -109,7 +111,7 @@ public class TextBubble : MonoBehaviour
             GL.Color(Color.white);  
   
             //Define the triangle vetices  
-            GL.Vertex3(goViewportPos.x, goViewportPos.y+(offsetY/2)/Screen.height, 0.1f);  
+            GL.Vertex3(goViewportPos.x - triangleOffsetX, goViewportPos.y + (offsetY / 2) / Screen.height, 0.1f);  
             GL.Vertex3(goViewportPos.x - (bubbleWidth/3)/(float)Screen.width, goViewportPos.y+offsetY/Screen.height, 0.1f);  
             GL.Vertex3(goViewportPos.x - (bubbleWidth/8)/(float)Screen.width, goViewportPos.y+offsetY/Screen.height, 0.1f);  
   

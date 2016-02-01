@@ -51,7 +51,7 @@ public class charaController : MonoBehaviour
                 droppedItem.GetComponent<Pickupable>().Drop(gameObject,nymphSpawning);
         }
 
-		if(Input.GetAxisRaw("Switch Current Item") != 0)
+		if(Input.GetButtonDown("Switch Current Item"))
         {
             inventory.SelectNextItem();
         }

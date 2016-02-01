@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: b036abf3f368ff040857bfa944614491
+timeCreated: 1454283740
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fx_Magiccircle_p_0
+    21300002: fx_Magiccircle_p_1
+    21300004: fx_Magiccircle_p_2
+    21300006: fx_Magiccircle_p_3
+    21300008: fx_Magiccircle_p_4
+    21300010: fx_Magiccircle_p_5
+    21300012: fx_Magiccircle_p_6
+    21300014: fx_Magiccircle_p_7
+    21300016: fx_Magiccircle_p_8
+    21300018: fx_Magiccircle_p_9
+    21300020: fx_Magiccircle_p_10
+    21300022: fx_Magiccircle_p_11
+    21300024: fx_Magiccircle_p_12
+    21300026: fx_Magiccircle_p_13
+    21300028: fx_Magiccircle_p_14
+    21300030: fx_Magiccircle_p_15
+    21300032: fx_Magiccircle_p_16
+    21300034: fx_Magiccircle_p_17
+    21300036: fx_Magiccircle_p_18
+    21300038: fx_Magiccircle_p_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 0
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fx_Magiccircle_p_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77, y: 62}
+        - {x: -67, y: 62}
+        - {x: -113, y: 27}
+        - {x: -114, y: 26}
+        - {x: -114, y: -28}
+        - {x: -82, y: -64}
+        - {x: 96, y: -64}
+        - {x: 109, y: -62}
+        - {x: 114, y: -39}
+        - {x: 114, y: 43}
+    - name: fx_Magiccircle_p_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 62}
+        - {x: -54, y: 62}
+        - {x: -114, y: 38}
+        - {x: -114, y: -18}
+        - {x: -96, y: -45}
+        - {x: -44, y: -64}
+        - {x: 64, y: -64}
+        - {x: 114, y: -30}
+        - {x: 114, y: 24}
+        - {x: 96, y: 56}
+    - name: fx_Magiccircle_p_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: 48}
+        - {x: 59, y: 62}
+        - {x: -51, y: 62}
+        - {x: -114, y: 39}
+        - {x: -114, y: -29}
+        - {x: -74, y: -64}
+        - {x: 63, y: -64}
+        - {x: 94, y: -43}
+        - {x: 114, y: -25}
+        - {x: 114, y: 17}
+    - name: fx_Magiccircle_p_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 62}
+        - {x: -100, y: 48}
+        - {x: -114, y: 15}
+        - {x: -114, y: -28}
+        - {x: -113, y: -29}
+        - {x: -55, y: -64}
+        - {x: 80, y: -64}
+        - {x: 114, y: -38}
+        - {x: 114, y: 25}
+        - {x: 83, y: 62}
+    - name: fx_Magiccircle_p_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: 62}
+        - {x: -114, y: 37}
+        - {x: -114, y: -27}
+        - {x: -75, y: -64}
+        - {x: 70, y: -64}
+        - {x: 114, y: -23}
+        - {x: 114, y: 22}
+        - {x: 66, y: 62}
+    - name: fx_Magiccircle_p_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 62}
+        - {x: -43, y: 62}
+        - {x: -73, y: 58}
+        - {x: -114, y: 33}
+        - {x: -114, y: -23}
+        - {x: -97, y: -62}
+        - {x: -68, y: -64}
+        - {x: 75, y: -64}
+        - {x: 114, y: -30}
+        - {x: 114, y: 21}
+        - {x: 98, y: 47}
+    - name: fx_Magiccircle_p_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: 57}
+        - {x: 29, y: 62}
+        - {x: -38, y: 62}
+        - {x: -102, y: 51}
+        - {x: -114, y: 25}
+        - {x: -114, y: -36}
+        - {x: -56, y: -64}
+        - {x: 71, y: -64}
+        - {x: 114, y: -26}
+        - {x: 114, y: 19}
+        - {x: 111, y: 26}
+    - name: fx_Magiccircle_p_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84, y: 62}
+        - {x: -47, y: 62}
+        - {x: -99, y: 50}
+        - {x: -114, y: 31}
+        - {x: -114, y: -22}
+        - {x: -105, y: -57}
+        - {x: -66, y: -64}
+        - {x: 53, y: -64}
+        - {x: 73, y: -59}
+        - {x: 114, y: -34}
+        - {x: 114, y: 23}
+    - name: fx_Magiccircle_p_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93, y: 55}
+        - {x: 70, y: 62}
+        - {x: -68, y: 62}
+        - {x: -108, y: 58}
+        - {x: -114, y: 34}
+        - {x: -114, y: -33}
+        - {x: -98, y: -49}
+        - {x: -45, y: -64}
+        - {x: 53, y: -64}
+        - {x: 97, y: -46}
+        - {x: 114, y: -30}
+        - {x: 114, y: 20}
+    - name: fx_Magiccircle_p_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93, y: 53}
+        - {x: 67, y: 62}
+        - {x: -53, y: 62}
+        - {x: -93, y: 56}
+        - {x: -114, y: 35}
+        - {x: -114, y: -22}
+        - {x: -102, y: -53}
+        - {x: -30, y: -64}
+        - {x: 59, y: -64}
+        - {x: 73, y: -62}
+        - {x: 114, y: -30}
+        - {x: 114, y: 19}
+    - name: fx_Magiccircle_p_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86, y: 62}
+        - {x: -79, y: 62}
+        - {x: -114, y: 21}
+        - {x: -114, y: -25}
+        - {x: -70, y: -63}
+        - {x: -62, y: -64}
+        - {x: 57, y: -64}
+        - {x: 102, y: -53}
+        - {x: 114, y: -22}
+        - {x: 114, y: 35}
+    - name: fx_Magiccircle_p_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: 62}
+        - {x: -114, y: 62}
+        - {x: -114, y: -20}
+        - {x: -93, y: -55}
+        - {x: -42, y: -64}
+        - {x: 70, y: -64}
+        - {x: 102, y: -52}
+        - {x: 114, y: -22}
+        - {x: 114, y: 41}
+    - name: fx_Magiccircle_p_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86, y: 62}
+        - {x: -27, y: 62}
+        - {x: -56, y: 60}
+        - {x: -114, y: 32}
+        - {x: -114, y: -24}
+        - {x: -99, y: -60}
+        - {x: -63, y: -64}
+        - {x: 50, y: -64}
+        - {x: 97, y: -47}
+        - {x: 114, y: -34}
+        - {x: 114, y: 22}
+    - name: fx_Magiccircle_p_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 112, y: 62}
+        - {x: -89, y: 62}
+        - {x: -109, y: 24}
+        - {x: -114, y: 14}
+        - {x: -114, y: -20}
+        - {x: -99, y: -50}
+        - {x: -38, y: -64}
+        - {x: 55, y: -64}
+        - {x: 72, y: -59}
+        - {x: 114, y: -27}
+        - {x: 114, y: 56}
+    - name: fx_Magiccircle_p_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 62}
+        - {x: -81, y: 62}
+        - {x: -114, y: 33}
+        - {x: -114, y: -23}
+        - {x: -102, y: -53}
+        - {x: -77, y: -64}
+        - {x: 84, y: -64}
+        - {x: 114, y: -26}
+        - {x: 114, y: 17}
+        - {x: 111, y: 25}
+    - name: fx_Magiccircle_p_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: 62}
+        - {x: -83, y: 62}
+        - {x: -114, y: 22}
+        - {x: -114, y: -20}
+        - {x: -92, y: -54}
+        - {x: -36, y: -64}
+        - {x: 71, y: -64}
+        - {x: 102, y: -54}
+        - {x: 114, y: -24}
+        - {x: 114, y: 34}
+    - name: fx_Magiccircle_p_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 62}
+        - {x: -57, y: 62}
+        - {x: -114, y: 25}
+        - {x: -114, y: -24}
+        - {x: -103, y: -56}
+        - {x: -72, y: -64}
+        - {x: 45, y: -64}
+        - {x: 94, y: -57}
+        - {x: 114, y: -29}
+        - {x: 114, y: 16}
+        - {x: 100, y: 49}
+    - name: fx_Magiccircle_p_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 62}
+        - {x: -83, y: 62}
+        - {x: -103, y: 53}
+        - {x: -114, y: 22}
+        - {x: -114, y: -34}
+        - {x: -92, y: -52}
+        - {x: -45, y: -64}
+        - {x: 54, y: -64}
+        - {x: 56, y: -63}
+        - {x: 114, y: -36}
+        - {x: 114, y: 46}
+    - name: fx_Magiccircle_p_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 62}
+        - {x: -67, y: 62}
+        - {x: -104, y: 53}
+        - {x: -114, y: 22}
+        - {x: -114, y: -27}
+        - {x: -100, y: -50}
+        - {x: -48, y: -64}
+        - {x: 69, y: -64}
+        - {x: 74, y: -62}
+        - {x: 114, y: -23}
+        - {x: 114, y: 33}
+    - name: fx_Magiccircle_p_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 60}
+        - {x: 48, y: 62}
+        - {x: -72, y: 62}
+        - {x: -114, y: 47}
+        - {x: -114, y: -40}
+        - {x: -110, y: -57}
+        - {x: -78, y: -64}
+        - {x: 70, y: -64}
+        - {x: 114, y: -27}
+        - {x: 114, y: 22}
+        - {x: 112, y: 27}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

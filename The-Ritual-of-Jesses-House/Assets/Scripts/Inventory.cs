@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
+    static int Zcount = 0;
     public GameObject[] items;
 	public Image item1;
 	public Image item2;
@@ -25,6 +26,9 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(GameObject _item)
     {
+        if ((++Zcount & 1) == 0)
+            return;
+
 		for (int i = 0; i < Size(); ++i)
         {
 			if (items [i] == null)
